@@ -1,12 +1,12 @@
-# SSR Experiments with React Router 4
+# SSR Demo with React Router 4
 
 ## Install
 
 Clone the repo and install deps...
 
 ```
-git clone git@github.com:jaredpalmer/react-router-experiments.git
-cd react-router-experiments
+git clone git@github.com:jaredpalmer/react-router-ssr.git
+cd react-router-ssr
 yarn install && yarn start
 ```
 
