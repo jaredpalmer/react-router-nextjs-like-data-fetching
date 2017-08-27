@@ -16,7 +16,7 @@ Click around...
 
 This little app demonstrates some cool SSR stuff you can do with React Router 4:
 
-- Next.js-like data fetching using an HoC, static route config, and react-router-config. 
+- Next.js-like data fetching using an HoC, static route config, and `matchPath`. 
 - "Client-only" routes...this translates to partial/selective SSR (because Routes are just components :wink:)
 - Using RR4's `statusContext` to set HTTP status codes isomorphically.
 
