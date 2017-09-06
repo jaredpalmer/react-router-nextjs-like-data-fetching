@@ -3,7 +3,6 @@ import { StaticRouter, matchPath } from 'react-router-dom';
 import App from './App';
 import React from 'react';
 import express from 'express';
-import path from 'path';
 import { renderToString } from 'react-dom/server';
 import routes from './routes';
 
