@@ -1,6 +1,5 @@
 import HttpStatus from './HttpStatus';
 import React from 'react';
-import Route from 'react-router-dom/Route';
 
 function NotFound() {
   return (

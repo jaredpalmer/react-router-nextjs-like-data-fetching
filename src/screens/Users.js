@@ -1,8 +1,8 @@
 import Link from 'react-router-dom/Link';
 import React from 'react';
 import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
 import UserDetail from './UserDetail';
+import HttpStatus from '../components/HttpStatus';
 import withSSR from '../components/withSSR';
 
 const friends = [
@@ -24,7 +24,7 @@ class Users extends React.Component {
 
   render() {
     const { isLoading, friends, error } = this.props;
-    const hasFriends = !!this.props.friends && this.props.friends.length > 0;
+    const hasFriends = !!friends && friends.length > 0;
 
     if (isLoading) {
       // route wide loading...
