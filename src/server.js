@@ -19,7 +19,7 @@ server
     // First we iterate through our top level routes
     // looking for matches against the current url.
     const matches = routes.map((route, index) => {
-      const match = matchPath(req.url, route.path, route);
+      const match = matchPath(req.path, route);
       // We then look for static getInitialData function on each top level component
       if (match) {
         const obj = {
